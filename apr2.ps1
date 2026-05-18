@@ -1,6 +1,6 @@
 # Configuration
 $LogFile = Join-Path $Home ".logs/update_apr2.log"
-$TargetPath = Join-Path $Home "Documents/School/Obsidian - University/Semestr 2/APR2/"
+$TargetPath = Join-Path $Home "Documents/APR2/"
 $Url = "https://owncloud.cesnet.cz/index.php/s/YJewYnBKtM5BM4p/download?path=%2F&files=APR2_2026&downloadStartSecret=e6bl01r0ohf"
 $TempZip = Join-Path $env:TEMP "apr2_update.zip"
 
