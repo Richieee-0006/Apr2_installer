@@ -1,14 +1,14 @@
 # APR2 Installer
 
-A utility script for automating the synchronization of academic materials for the APR2 course from CESNET OwnCloud to a local directory (optimized for Obsidian). Supports both Linux (Bash) and Windows (PowerShell).
+Bash and PowerShell scripts that sync APR2 course materials from CESNET OwnCloud to a local directory (such as an Obsidian vault).
 
 ## Functionality
-The scripts perform the following operations:
-- Verifies system dependencies (curl/unzip or PowerShell).
-- Downloads the latest course materials archive from CESNET OwnCloud.
-- Validates the integrity of the downloaded ZIP archive.
-- Synchronizes the content into the specified target directory.
-- Maintains a detailed execution log with timestamps.
+The scripts:
+- Check required tools (`curl`/`unzip` on Linux, PowerShell 5.1+ on Windows).
+- Download the latest course archive from CESNET OwnCloud.
+- Verify the downloaded ZIP archive before extracting.
+- Sync extracted files into the target directory.
+- Append timestamped entries to an execution log.
 
 ## Configuration
 Default paths can be overridden using environment variables or by editing the script:

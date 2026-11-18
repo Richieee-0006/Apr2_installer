@@ -5,8 +5,8 @@ Cross-platform utility for automated synchronization of academic course material
 ## Key Features
 - **Multi-Platform:** Support for both Bash (Linux) and PowerShell (Windows).
 - **Automated Sync:** One-click update of course materials from CESNET OwnCloud.
-- **Robust Validation:** Checks file integrity and system dependencies before processing.
-- **Logging:** Comprehensive logging of all operations for troubleshooting.
+- **Archive Validation:** Checks ZIP integrity and required system tools before extracting.
+- **Execution Logging:** Writes timestamped logs for each sync run.
 - **Obsidian Ready:** Optimized for synchronization into Obsidian vault structures.
 
 ## Tech Stack
